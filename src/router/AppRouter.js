@@ -4,6 +4,7 @@ import Header from '../Components/Header'
 import Home from '../pages/Home'
 import About from '../pages/About'
 import Episodes from '../pages/Episodes'
+import Contact from '../pages/Contact'
 
 const AppRouter = () => {
   return (
@@ -14,6 +15,7 @@ const AppRouter = () => {
             <Route path='/' element={<Home/>} />
             <Route path='/about' element={<About/>} />
             <Route path='/episodes' element={<Episodes/>} />
+            <Route path='/contact' element={<Contact/>} />
         </Routes>
     </BrowserRouter>
     </>

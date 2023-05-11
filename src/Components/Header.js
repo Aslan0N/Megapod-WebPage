@@ -14,7 +14,7 @@ const Header = () => {
                 <li className='list-head'><NavLink to='/about' >About</NavLink></li>
                 <li className='list-head'> <NavLink to='/episodes'>Episodes</NavLink> </li>
                 <li className='list-head'>Pages</li>
-                <li className='list-head'>Contact</li>
+                <li className='list-head'> <NavLink to={'/contact'}>Contact</NavLink> </li>
             </ul>
             <div className="i-con">
             <form>
